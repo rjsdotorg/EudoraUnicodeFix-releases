@@ -21,7 +21,7 @@ The primary deliverable is `EudoraUnicodeFix.dll`.
 To repair a message, double-click it so it opens in its own window, then choose
 **Edit > Message Plug-ins > Repair Gmail Unicode for Eudora**. The command is
 not available in the preview pane. Eudora will ask whether to save the modified
-message when its window closes.
+message when its window closes. Use Ctrl-S to save the repaired version.
 
 The plug-in runs only when requested; it does not alter incoming mail
 automatically.

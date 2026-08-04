@@ -4,8 +4,7 @@ Eudora Unicode Fix is a 32-bit EMSAPI plug-in for Eudora 7.1.0.9 (and possibly e
 Gmail and other HTML messages containing UTF-8 mojibake, mathematical Unicode
 letters, and Unicode byte sequences interrupted by HTML entities.
 
-The primary deliverable is `EudoraUnicodeFix.dll`. The command-line executable
-is a test tool that uses the same conversion engine.
+The primary deliverable is `EudoraUnicodeFix.dll`. 
 
 > **Restart required:** Eudora must be completely closed and restarted after
 > installing, replacing, updating, or removing a plug-in DLL. Eudora loads
@@ -21,7 +20,7 @@ is a test tool that uses the same conversion engine.
 
 To repair a message, double-click it so it opens in its own window, then choose
 **Edit > Message Plug-ins > Repair Gmail Unicode for Eudora**. The command is
-not available in the preview pane. Eudora may ask whether to save the modified
+not available in the preview pane. Eudora will ask whether to save the modified
 message when its window closes.
 
 The plug-in runs only when requested; it does not alter incoming mail
@@ -47,7 +46,7 @@ A**, and click **Settings**.
 
 Both repair modes, conservative mode, and logging are enabled by default.
 Snapshots and completion summaries are disabled. Preferences are stored in
-`EudoraUnicodeFix.ini` in Eudora's configuration directory.
+`EudoraUnicodeFix.ini` in Eudora's configuration directory, which is only read at Eudora startup.
 
 ## Troubleshooting
 
